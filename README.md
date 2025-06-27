@@ -1,5 +1,6 @@
 # Description
-The aim of this project is to create models whith hyper parameters from multiple (LGBMClassifier, LGBMRegressor ...)
+
+The aim of this project is to create clusturing models from the digits dataset
 
 ## Virtual environment
 
@@ -33,12 +34,13 @@ source .venv/bin/activate
 ### Project structure
 ```bash
 .
-├── analyse_boston_housing_dataset.ipynb
-├── antonys-notebook.ipynb
+├── analyse_digits_dataset.ipynb
+├── assets
+│   └── flower.jpg
 ├── data
 │   └── data.csv
-├── __pycache__
-│   └── main.cpython-310.pyc
+├── jpg.ipynb
+├── old_analyse_digits_dataset.ipynb
 ├── README.md
 └── requirements.txt
 
